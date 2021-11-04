@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello World</h1>
-      <button onClick={() => history.push("/page1")}>P1</button>
+      <button className="button" onClick={() => history.push("/page1")}>P1</button>
       <button onClick={() => history.push("/page2")}>P2</button>
       <button onClick={() => history.push("/page3")}>P3</button>
       <Switch>
