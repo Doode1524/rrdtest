@@ -13,11 +13,11 @@ function App() {
       <h1>Hello World</h1>
       <button
         className="button"
-        onClick={() => navigate("/page1", { replace: false })}
+        onClick={() => navigate("/page1")}
       >
         P1
       </button>
-      <button onClick={() => navigate("/page2", { replace: false })}>P2</button>
+      <button onClick={() => navigate("/page2")}>P2</button>
       <button onClick={() => navigate("/page3")}>P3</button>
       <Routes>
         <Route exact path="/page1" element={<Page1 />} />
