@@ -71,3 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # rrdtest
 
 //done
+
+navigate("/link", { state: { name: "rrdtest" } });
+const location = useLocation();
+
+location.state.name;
